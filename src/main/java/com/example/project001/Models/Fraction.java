@@ -1,10 +1,10 @@
-package com.example.project001;
+package com.example.project001.Models;
 
-public class FractionClass {
+public class Fraction {
     private final int numerator;
     private final int denominator;
 
-    public FractionClass(int numerator, int denominator) {
+    public Fraction(int numerator, int denominator) {
         this.numerator = numerator;
         this.denominator = denominator;
 
@@ -14,11 +14,11 @@ public class FractionClass {
         }
     }
 
-    public FractionClass add(FractionClass other) {
+    public Fraction add(Fraction other) {
         int numerator = this.numerator * other.denominator +
                 other.numerator * denominator;
         int denominator = this.denominator * other.denominator;
-        return new FractionClass(numerator, denominator);
+        return new Fraction(numerator, denominator);
     }
 
     @Override

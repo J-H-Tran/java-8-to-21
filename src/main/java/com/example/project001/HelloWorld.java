@@ -1,5 +1,7 @@
 package com.example.project001;
 
+import com.example.project001.Records.Fraction;
+
 public class HelloWorld {
     public static void main(String[] argv) {
 
