@@ -1,4 +1,4 @@
-package com.example.project001.Records;
+package com.example.project001.records;
 
 public record Fraction(int numerator, int denominator) {
     public Fraction(int numerator, int denominator) {

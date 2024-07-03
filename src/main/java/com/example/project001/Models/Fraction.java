@@ -1,4 +1,4 @@
-package com.example.project001.Models;
+package com.example.project001.models;
 
 public class Fraction {
     private final int numerator;
