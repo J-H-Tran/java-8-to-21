@@ -1,4 +1,4 @@
-package com.example.project001.singleton;
+package com.example.project001.designpatterns.singleton;
 
 public class LazySingleton {
     private static LazySingleton INSTANCE;
